@@ -27,5 +27,11 @@ fi
 NUMBER=$(($RANDOM%1000+1))
 echo $NUMBER
 
-#echo "Guess the secret number between 1 and 1000: "
-#read GUESS
+echo "Guess the secret number between 1 and 1000: "
+read GUESS
+
+# if not a number 
+# print 'not an integer'
+# if lower than number
+# print 'lower'
+# if higher than number
