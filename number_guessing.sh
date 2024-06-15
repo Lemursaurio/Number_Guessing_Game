@@ -22,3 +22,10 @@ else
     echo "Welcome back, $USERNAME! You have played $GAMES_PLAYED games, and your best game took $BEST_GAME guesses."
   done
 fi
+
+# generate the random number and store it in a variable
+NUMBER=$(($RANDOM%1000+1))
+echo $NUMBER
+
+#echo "Guess the secret number between 1 and 1000: "
+#read GUESS
